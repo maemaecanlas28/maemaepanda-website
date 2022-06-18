@@ -19,11 +19,20 @@ body {
     font-size: small;
 }
 
-img {
-    display: block;
-    width: 30%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+.main-photo {
+    width: 48%;
+    height: 600px;
+    object-fit: cover;
+    margin-right: 10px;
 }
 
+.other-photo {
+    width: 48%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.image-container {
+    margin: 0 auto;
+    width:fit-content;
+}
