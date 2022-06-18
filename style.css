@@ -2,14 +2,20 @@
 .header {
     align-content: center;
     text-align: center;
+    font-family: "lucida handwriting";
+    font-size: 20px;
 }
 
 .main-header {
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 40px;
+    font-family:fantasy;
+    text-align:center;
 }
 
 body {
-    background: rgb(254, 217, 223);
+    background-image:url("./WebsiteImages/FloralWP.webp");
+    background-size: cover;
     font-size: small;
 }
 
