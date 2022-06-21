@@ -2,14 +2,15 @@
 .header {
     align-content: center;
     text-align: center;
-    font-family: "lucida handwriting";
-    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 30px;
 }
 
 .main-header {
     font-weight: 400;
-    font-size: 40px;
-    font-family:fantasy;
+    font-size: 30px;
+    font-family: 'Potta One', cursive;
     text-align:center;
 }
 
@@ -20,19 +21,52 @@ body {
 }
 
 .main-photo {
-    width: 48%;
-    height: 600px;
-    object-fit: cover;
+    object-fit: contain;
     margin-right: 10px;
+    width: 350px;
 }
 
 .other-photo {
-    width: 48%;
     height: 600px;
-    object-fit: cover;
 }
 
-.image-container {
-    margin: 0 auto;
-    width:fit-content;
+.image-left {
+    height: 600px;
+    position: absolute;
+    right: 140px;
+    border: 5px solid black;
+    width: 319px;
+}
+
+.image-right {
+    height: 466px;
+    position: absolute;
+    left: 140px;
+    border: 5px solid black;
+    width: 350px
+}
+
+.navigation-link {
+    display:inline;
+}
+
+.tabs {
+    list-style: none;
+    display: block;
+    background-color: #eecbf7;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px 0px;
+    border: 3px solid black;
+}
+
+.tab-item {
+    display:inline-block;
+    width: 100px;
+    cursor:pointer;
+}
+
+.selected {
+    background-color: white;
+    border: 2px solid black;
 }
